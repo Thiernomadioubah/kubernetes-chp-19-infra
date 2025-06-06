@@ -10,9 +10,9 @@ auth:
   enabled: true
 tls:
   enabled: false
-replicaCount: 1 #3
+replicaCount: 1
 persistence:
-  storageClass: "premium-rwo"
+  storageClass: "default"
   size: 1Gi
 metrics:
   enabled: true
