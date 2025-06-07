@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: thierno9/projet5-gke-node-api:98b9e65
+          image: thierno9/projet5-gke-node-api:7d39f18
           ports:
             - containerPort: 80
           env:
