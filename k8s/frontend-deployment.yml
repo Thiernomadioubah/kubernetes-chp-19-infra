@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: thierno9/projet5-gke-vue:98b9e65
+          image: thierno9/projet5-gke-vue:7d39f18
           ports:
             - containerPort: 80
           volumeMounts:
